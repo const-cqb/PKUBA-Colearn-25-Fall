@@ -8,7 +8,9 @@
 
 📌 准备工作：
 1️⃣ 安装并配置好 MetaMask 钱包
+
 2️⃣ 领取 Sepolia 测试网 ETH 测试币
+
 3️⃣ 准备好你要部署的合约代码, 可以直接使用下面的例子:
 
 ```solidity
@@ -29,13 +31,15 @@ contract HelloWeb3 {
 🔄 操作流程详解：
 
 1. 打开 Remix IDE：[https://remix.ethereum.org](https://remix.ethereum.org/)
-2. 在 contracts 文件夹中新建 .sol 文件，粘贴上述代码
+2. 新建 HelloWeb3.sol 文件，粘贴上述代码
 3. 进入 Solidity Compiler 标签页，点击“Compile”
 4. 进入 Deploy & Run Transactions 标签页
 5. 环境选择 “Injected Provider - MetaMask”
 6. 确认 MetaMask 已切换至 Sepolia 网络
 7. 点击 Deploy，在 MetaMask 中确认交易
 8. 等待部署成功，在 Remix 控制台复制合约地址和交易哈希
+9. 在已经部署的合约中调用 hello 方法
+10. 打开[区块链浏览器](https://sepolia.etherscan.io/)，搜索部署的合约地址，查看 Transactions 和 Events 结果
 
 🎉 恭喜你！
 你刚刚完成了第一个智能合约的部署！这意味着你已经掌握了区块链开发中最基础也最关键的一步。接下来，你可以尝试编写更复杂的合约逻辑，甚至开发一个完整的 DApp！
